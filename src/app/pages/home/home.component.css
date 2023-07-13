@@ -3,6 +3,7 @@
     top: 0;
     z-index: -1;
     width: 100%;
+    
 }
 
 .home__background > img{
@@ -10,30 +11,34 @@
 }
 
 .home__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 40px 60px;
-
     font-family: 'Roboto', sans-serif;
 }
 
+.container__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding: 40px 60px;
+}
+
 .home__texto{
-    width: 50%;
+    width: 45%;
 }
 
 .texto__title > h1{
     font-size: 90px;
-    color: white;
+    color: #1f3b6f;
+    text-shadow: 2px 2px 25px #e3e8f193;
 }
 
 .texto__subs > p{
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
 
-    color: #1f3b6f;
+    color: #152139;
 }
 
 .texto__interacoes > button{
