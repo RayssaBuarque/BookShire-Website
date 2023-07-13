@@ -1,0 +1,61 @@
+/*FONTE DA LOGO/TÍTULO -- font-family: 'Advent Pro', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap');
+
+.menu__container{
+    margin: 20px 30px;
+    margin-bottom: 0;
+
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu__title > h1{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 40px;
+}
+
+.menu__title > img{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.menu__sections > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu__sections > ul > li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu__sections > ul > li > a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu__contact-us{
+    display: flex;
+    align-items: center;
+}
+
+.menu__contact-us > button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #d7deea;
+    border-radius: 15px;
+}
