@@ -22,6 +22,7 @@
 .menu__title > h1{
     font-family: 'Advent Pro', sans-serif;
     font-size: 40px;
+    cursor: default;
 }
 
 .menu__title > img{
@@ -48,14 +49,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.menu__sections > ul > li > a:hover{
+    color: #1f3b6f;
+}
+
 .menu__contact-us{
     display: flex;
     align-items: center;
 }
 
 .menu__contact-us > button{
-    padding: 10px 15px;
+    padding: 7px 15px;
     border: none;
-    background-color: #d7deea;
     border-radius: 15px;
+
+    background-color: #f2f5fca2;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu__contact-us > button:hover{
+    background-color: #f2f5fccc;
 }

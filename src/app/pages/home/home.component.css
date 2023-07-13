@@ -1,0 +1,59 @@
+.home__background{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.home__background > img{
+    width: 100%;
+}
+
+.home__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 60px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.home__texto{
+    width: 50%;
+}
+
+.texto__title > h1{
+    font-size: 90px;
+    color: white;
+}
+
+.texto__subs > p{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: 600;
+
+    color: #1f3b6f;
+}
+
+.texto__interacoes > button{
+    font-size: 20px;
+    
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1f3b6f;
+    color:white;
+    cursor: pointer;
+}
+
+.home__prototipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__prototipo > img{
+    height: 700px;
+    width: auto;
+}
