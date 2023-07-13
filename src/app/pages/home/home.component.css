@@ -1,13 +1,24 @@
 .home__background{
-    position: fixed;
+    position: absolute;
     top: 0;
     z-index: -1;
     width: 100%;
-    
 }
 
 .home__background > img{
     width: 100%;
+}
+
+.hr{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hr hr{
+    width: 80%;
+    border-color:#1f3b6f2d;
 }
 
 .home__container{
@@ -61,4 +72,28 @@
 .home__prototipo > img{
     height: 700px;
     width: auto;
+}
+
+.container__sobre{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__sobre > .sobre__logo > img{
+    height: 95px;
+    width: 95px;
+}
+
+.container__sobre > .sobre__title > h2{
+    font-size: 45px;
+    color: #1f3b6f;
+}
+
+.container__sobre > .sobre__content{
+    width: 55%;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 20px;
 }
