@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 70px;
+    margin-top: 40px;
     padding: 40px 60px;
 }
 
@@ -38,15 +38,15 @@
 }
 
 .texto__title > h1{
-    font-size: 90px;
+    font-size: 80px;
     color: #1f3b6f;
     text-shadow: 2px 2px 25px #e3e8f193;
 }
 
 .texto__subs > p{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
 
     color: #152139;
@@ -63,6 +63,10 @@
     cursor: pointer;
 }
 
+.texto__interacoes > button:hover{
+    background-color: #ff6d1f;
+}
+
 .home__prototipo{
     display: flex;
     align-items: center;
@@ -75,7 +79,8 @@
 }
 
 .container__sobre{
-    margin: 50px 0;
+    margin: 60px 0;
+    margin-bottom: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,4 +101,35 @@
     text-align: center;
     margin-top: 1rem;
     font-size: 20px;
+}
+
+.container__galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria__background{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.galeria__background > img{
+    width: 100%;
+}
+
+.galeria__title > h1{
+    margin-top: 9rem;
+    font-size: 45px;
+    color: white;
+}
+
+.galeria__cards{
+    margin-top: 2rem;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
