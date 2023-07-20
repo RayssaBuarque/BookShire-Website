@@ -8,4 +8,14 @@
 
         <p>{{cargo}}</p>
     </div>
+
+    <div class="card__socials">
+        <ul>
+            <li *ngFor= "let social of socials">
+                <a href="{{social.redeUrl}}" target="_blank">
+                    <img src="{{social.redePicUrl}}" alt="{{social.rede}}">
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>

@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import {devData} from '../../../data/developers-data';
 
 @Component({
   selector: 'app-card-devs',
@@ -8,13 +10,36 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardDevsComponent implements OnInit {
 
   //PROPRIEDADES INPUTÁVEIS DO CARD
-  @Input() nome:string = 'Nome'
-  @Input() cargo:string = 'Cargo'
-  @Input() picUrl:string = 'Url da Imagem'
+  @Input() id:string | null =''
+  private Id: string | null = '' 
+  nome:string = 'Nome'
+  cargo:string = 'Cargo'
+  picUrl:string = 'Url da Imagem'
 
-  constructor() { }
+  socials:{
+    rede: string,
+    redePicUrl: string,
+    redeUrl: string
+  }[] = []
 
+  constructor(private route:ActivatedRoute) {}
+  
   ngOnInit(): void {
+    this.route.paramMap.subscribe( (value) => this.Id = value.get('id') );
+
+    this.setValuesToComponent(this.id);
+  }
+
+  setValuesToComponent(id:string | null){
+    const dados = devData.filter( (dev) => dev.id == id )[0];
+    // console.log(dados)
+
+    this.nome = dados.nome;
+    this.cargo = dados.cargo;
+    this.picUrl = dados.picUrl;
+
+    this.socials.push(...dados.socials)
+    console.log(this.socials)
   }
 
 }
