@@ -1,0 +1,30 @@
+@media screen and (min-width:1400px) {
+    *{
+        background-color: green;
+    }
+}
+
+@media screen and (max-width:1125px){
+    .menu__container{ margin: 20px 60px; }
+
+    .menu__title > a > h1{ font-size: 35px; }
+    
+    .menu__title > a > img{
+        height:45px;
+        width:45px;
+    }
+}
+@media screen and (max-width:900px){
+    .menu__container{ margin: 15px 30px; }
+
+    .menu__title > a > h1{ font-size: 25px; }
+    .menu__sections > ul > li{margin-right: 10px;}
+    .menu__sections > ul > li > a{ font-size: 15px; }
+    
+    .menu__title > a > img{
+        height:35px;
+        width:35px;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:500px){}

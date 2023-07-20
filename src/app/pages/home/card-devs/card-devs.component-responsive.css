@@ -1,0 +1,32 @@
+@media screen and (min-width:1400px) {
+    *{
+        background-color: green;
+    }
+}
+@media screen and (max-width:1115px){
+    .card__container{
+        width: 150px;
+        height: 250px;
+    }
+
+    .card__pic > img{
+        height: 125px;
+        width: 125px;
+    }
+
+    .card__text > h1{ font-size: 18px; }
+
+    .card__text > p{ font-size: 15px; }
+
+    ul > li > img{
+        height: 15px;
+        width: 15px;
+    }
+}  
+
+@media screen and (max-width:800px){
+    /* .card__container{
+        flex-grow: 1;
+    } */
+}
+@media screen and (max-width:500px){} 

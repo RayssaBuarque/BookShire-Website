@@ -5,7 +5,10 @@ import {devData} from '../../../data/developers-data';
 @Component({
   selector: 'app-card-devs',
   templateUrl: './card-devs.component.html',
-  styleUrls: ['./card-devs.component.css']
+  styleUrls: [
+                './card-devs.component.css',
+                './card-devs.component-responsive.css'
+              ]
 })
 export class CardDevsComponent implements OnInit {
 

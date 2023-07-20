@@ -42,11 +42,13 @@
 
 .home__prototipo{
     margin-top: 0;
-    width: 55%;
+    padding-left: 50px;
+    width: 50%;
 }
 
 .home__prototipo > img{
     object-fit: cover;
+    object-position: left bottom;
     height: 600px;
     width: fill;
 }

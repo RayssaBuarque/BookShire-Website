@@ -68,7 +68,7 @@
 }
 
 .galeria__title > h1{
-    margin-top: 5rem;
+    margin-top: 4rem;
     font-size: 45px;
     color: white;
 }
@@ -88,6 +88,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     padding-top: 300px;   
 }
@@ -98,19 +99,22 @@
 
 .desenvolvedoras__background > h1{
     color: white;
+    margin-bottom: 10px;
 }
 
-.desenvolvedoras__background .desenvolvedoras__fotos{
+.desenvolvedoras__fotos{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+
+    min-width: 80%; 
     margin-top: 25px;
 }
 
 #container__footer{
     padding: 15px;
-    padding-top: 220px;
+    padding-top: 400px;
     background-color: #152139;
 
     color: white;

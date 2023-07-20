@@ -1,0 +1,44 @@
+@media screen and (min-width:1400px) {
+    *{
+        background-color: green;
+    }
+}
+@media screen and (max-width:1125px){
+    .home__texto{
+        width: 57%;
+        padding-left: 50px;
+    }
+
+    .texto__title > h1{ font-size: 60px; }
+
+    .texto__subs > p{ font-size: 20px; }
+
+    .home__prototipo{
+        width: 40%;
+        padding-left: 20px;
+    }
+
+    .home__prototipo > img{ height: 500px; }
+}
+@media screen and (max-width:800px){
+    .container__header{
+        flex-direction: column;
+    }
+
+    .home__texto{ width: 100%;}
+
+    .texto__title > h1{ font-size: 50px; }
+
+    .texto__subs > p{
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+
+    .home__prototipo{
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .home__prototipo > img{ height: 400px;}
+}
+@media screen and (max-width:500px){} 
