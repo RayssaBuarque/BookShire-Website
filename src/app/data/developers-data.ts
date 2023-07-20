@@ -51,6 +51,11 @@ export const devData = [
                 "rede": "Linkedin",
                 "redePicUrl": "../../assets/icons/linkedin.svg",
                 "redeUrl": "https://www.linkedin.com/in/rayssabuarque/"
+            },
+            {
+                "rede": "Github",
+                "redePicUrl": "../../assets/icons/github.svg",
+                "redeUrl": "https://github.com/rayssabuarque/"
             }
         ]
     },
