@@ -8,10 +8,11 @@ a{
     align-items: center;
     justify-content: center;
 
-    height: 325px;
+    height: 300px;
+    width: 250px;
     background-color: white;
     border-radius: 35px;
-    padding: 25px;
+    padding: 20px;
 }
 
 .conquista__title{
