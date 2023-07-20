@@ -1,9 +1,3 @@
-@media screen and (min-width:1400px) {
-    *{
-        background-color: green;
-    }
-}
-
 @media screen and (max-width:1125px){
     .menu__container{ margin: 20px 60px; }
 

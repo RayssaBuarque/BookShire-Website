@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HostListener } from "@angular/core";
 
 @Component({
   selector: 'app-header',
@@ -10,9 +11,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  public prototipo:boolean = false
+
+  constructor() { 
+    this.onResize();
+  }
 
   ngOnInit(): void {
+    this.onResize();
+  }
+
+  //checando se o prototipo precisa aparecer
+  @HostListener('window:resize', ['$event']) onResize(event? : any) {
+    if (window.innerWidth < 800){
+      this.prototipo = false
+    }else{
+      this.prototipo = true
+    }
   }
 
 }

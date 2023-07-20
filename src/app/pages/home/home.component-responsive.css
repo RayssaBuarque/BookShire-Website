@@ -1,7 +1,5 @@
 @media screen and (min-width:1400px) {
-    *{
-        background-color: green;
-    }
+    .galeria__title > h1{ margin-top: 0; }
 }
 
 @media screen and (max-width:1115px){
@@ -26,8 +24,10 @@
     }
 
     .sobre__title > h2{ font-size: 40px; }
-
-    .sobre__content{ font-size: 18px; }
+    .sobre__content{
+        width: 65%;
+        font-size: 18px;
+    }
 
     .galeria__background{ padding-bottom: 3rem;}
 
@@ -40,7 +40,46 @@
 
     #container__footer{ padding-top: 9rem; }
 }
-@media screen and (max-width:500px){}
+@media screen and (max-width:500px){
+    .home__background > img{
+        height: 450px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .hr{
+        margin: 3rem 0;
+    }
+    
+    .sobre__logo > img{
+        height: 50px;
+        width: 50px;
+        padding-bottom: 1rem;
+    }
+    
+    .sobre__title > h2{ font-size: 25px; }
+    .sobre__content{
+        width: 75%;
+        font-size: 15px;
+    }
+
+    .galeria__title > h1{
+        margin-top: 1rem;
+        font-size: 25px;
+    }
+
+    .desenvolvedoras__background > h1{ font-size: 25px; }
+
+    .desenvolvedoras__background{ padding-top: 6rem; }
+
+    #container__footer{padding-top: 100px;}
+    .footer__slogan > p{ font-size: 12px; }
+    
+    .footer__socials > a > img{
+        height: 30px;
+        width: 30px;
+    }
+}
 
 
 /* 

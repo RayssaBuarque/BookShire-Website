@@ -50,5 +50,5 @@
     object-fit: cover;
     object-position: left bottom;
     height: 600px;
-    width: fill;
+    width: 100%;
 }

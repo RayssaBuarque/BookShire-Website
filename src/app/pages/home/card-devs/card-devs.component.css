@@ -39,7 +39,7 @@ ul{
     margin-top: 10px;
 }
 
-ul > li > img{
-    height: 20px;
-    width: 20px;
+ul > li > a >  img{
+    height: 40px;
+    width: 40px;
 }

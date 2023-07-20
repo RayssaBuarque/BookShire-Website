@@ -23,8 +23,8 @@ ul > li > a{
     color: #1f3b6f;
 }
 
-#container__ham-menu {
-    cursor: pointer;
+.container__ham-menu {
+    cursor:pointer;
     width: 30px;
     height: 30px;
 
@@ -42,6 +42,7 @@ ul > li > a{
 .sidebar-menu {
     position: fixed;
     top: 0;
+    z-index: 1;
     right: -250px;
 
     width: 200px;
@@ -50,7 +51,6 @@ ul > li > a{
     background-color: #d7deea;
     padding: 0px 10px;
     box-sizing: border-box;
-
 }
 
 .sidebar-menu > h1{
@@ -71,6 +71,7 @@ ul > li > a{
     position: absolute;
     top: 10px;
     right: 10px;
+    padding: 20px;
 
     cursor: pointer;
     color: #1f3b6f;
