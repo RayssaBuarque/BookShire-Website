@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HostListener } from "@angular/core";
 
 @Component({
   selector: 'app-menu',
@@ -10,9 +11,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  public sanduiche:boolean = false
+
+  constructor() { 
+    this.onResize();
+  }
 
   ngOnInit(): void {
+    this.onResize();
+  }
+
+  //checando se o menu sanduiche precisa aparecer
+  @HostListener('window:resize', ['$event']) onResize(event? : any) {
+    if (window.innerWidth < 800){
+      this.sanduiche = true
+    }else{
+      this.sanduiche = false
+    }
   }
 
 }

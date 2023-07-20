@@ -5,7 +5,7 @@
         <h1>BookShire</h1>
     </a></div>
 
-    <div class="menu__sections">
+    <div *ngIf = "!sanduiche" class="menu__sections">
         <ul>
             <li><a 
                 href="#container__sobre" 
@@ -15,15 +15,17 @@
                 href="#container__galeria" 
                 title ="Nossas Conquistas" 
                 >Galeria</a></li>
-            <li><a 
-                href="#container__desenvolvedoras" 
-                title ="Sobre as Desenvolvedoras" 
-                >Desenvolvedoras</a></li>
-        </ul>
-    </div>
+                <li><a 
+                    href="#container__desenvolvedoras" 
+                    title ="Sobre as Desenvolvedoras" 
+                    >Desenvolvedoras</a></li>
+                </ul>
+            </div>
 
-    <div class="menu__contact-us">
+    <div *ngIf = "!sanduiche" class="menu__contact-us">
         <button>Contate-nos</button>
     </div>
 
+    <app-menu-sanduiche *ngIf="sanduiche"></app-menu-sanduiche>
+    
 </div>

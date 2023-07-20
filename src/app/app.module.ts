@@ -8,6 +8,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { CardConquistaComponent } from './pages/home/card-conquista/card-conquista.component';
 import { HeaderComponent } from './pages/home/header/header.component';
 import { CardDevsComponent } from './pages/home/card-devs/card-devs.component';
+import { MenuSanduicheComponent } from './components/menu/menu-sanduiche/menu-sanduiche.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardDevsComponent } from './pages/home/card-devs/card-devs.component';
     MenuComponent,
     CardConquistaComponent,
     HeaderComponent,
-    CardDevsComponent
+    CardDevsComponent,
+    MenuSanduicheComponent
   ],
   imports: [
     BrowserModule,
