@@ -21,4 +21,9 @@
         margin-right: 10px;
     }
 }
-@media screen and (max-width:500px){}
+
+@media screen and (max-width:500px){
+    .menu__title > a > h1{
+        color: #FF6D1F;
+    }
+}
