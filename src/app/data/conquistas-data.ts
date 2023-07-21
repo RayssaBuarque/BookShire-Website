@@ -1,23 +1,23 @@
 // {
-    //     "id": "0",
-    //     "ano": "XXXX",
-    //     "titulo-rojeto":"desafio X",
-    //     "relevancia":"finalista"
-    //     "descricao-projeto":"descricao do projeto",
-    //     "pic": {
-    //         "picAltText": "descricao da imagem",
-    //         "picUrl":"../../assets/fotos/"
-    //     },
-    //     "links": [
-    //         {
-    //             "titulo-link": "Exemplo: vídeo-pitch",
-    //             "url-link": "url"
-    //         },
-    //         {
-    //             "titulo-link": "Exemplo: vídeo-docs",
-    //             "url-link": "url"
-    //         }
-    //     ]
+//     "id": "0",
+//     "ano": "XXXX",
+//     "titulo-rojeto":"desafio X",
+//     "relevancia":"finalista"
+//     "descricao-projeto":"descricao do projeto",
+//     "pic": {
+//         "picAltText": "descricao da imagem",
+//         "picUrl":"../../assets/fotos/"
+//     },
+//     "links": [
+//         {
+//             "titulo-link": "Exemplo: vídeo-pitch",
+//             "url-link": "url"
+//         },
+//         {
+//             "titulo-link": "Exemplo: vídeo-docs",
+//             "url-link": "url"
+//         }
+ //     ]
     // }
 
 export const devData = [
@@ -60,7 +60,7 @@ export const devData = [
             }
         ]
     },
-    
+
     {
         "id": "3",
         "ano": "2023",
