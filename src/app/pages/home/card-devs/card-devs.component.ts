@@ -25,7 +25,11 @@ export class CardDevsComponent implements OnInit {
     redeUrl: string
   }[] = []
 
-  constructor(private route:ActivatedRoute) {}
+  constructor(private route:ActivatedRoute) {
+    this.route.params.subscribe( res => console.log(res) ) //printando o parâmetro do path
+
+    this.route.queryParams.subscribe( res => console.log(res) ) 
+  }
   
   ngOnInit(): void {
     this.route.paramMap.subscribe( (value) => this.Id = value.get('id') );
@@ -42,7 +46,7 @@ export class CardDevsComponent implements OnInit {
     this.picUrl = dados.picUrl;
 
     this.socials.push(...dados.socials)
-    console.log(this.socials)
+    // console.log(this.socials)
   }
 
 }

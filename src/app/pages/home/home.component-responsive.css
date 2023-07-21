@@ -41,15 +41,6 @@
     #container__footer{ padding-top: 9rem; }
 }
 @media screen and (max-width:500px){
-    .home__background > img{
-        height: 450px;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .home__background{
-        visibility: hidden;
-    }
     
     .hr{
         margin: 3rem 0;

@@ -1,6 +1,19 @@
 /*FONTE DA LOGO/TÍTULO -- font-family: 'Advent Pro', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap');
 
+.home__background{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.home__background > img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .menu__container{
     margin: 20px 80px;
     margin-bottom: 0;

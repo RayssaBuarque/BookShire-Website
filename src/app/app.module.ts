@@ -9,6 +9,8 @@ import { CardConquistaComponent } from './pages/home/card-conquista/card-conquis
 import { HeaderComponent } from './pages/home/header/header.component';
 import { CardDevsComponent } from './pages/home/card-devs/card-devs.component';
 import { MenuSanduicheComponent } from './components/menu/menu-sanduiche/menu-sanduiche.component';
+import { ConquistaProjetoComponent } from './pages/conquista-projeto/conquista-projeto.component';
+import { HrDivisaoComponent } from './components/hr-divisao/hr-divisao.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MenuSanduicheComponent } from './components/menu/menu-sanduiche/menu-sa
     CardConquistaComponent,
     HeaderComponent,
     CardDevsComponent,
-    MenuSanduicheComponent
+    MenuSanduicheComponent,
+    ConquistaProjetoComponent,
+    HrDivisaoComponent
   ],
   imports: [
     BrowserModule,

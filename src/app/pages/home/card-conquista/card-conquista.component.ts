@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { projetoData } from 'src/app/data/conquistas-data';
 
 @Component({
   selector: 'app-card-conquista',
@@ -11,13 +13,25 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardConquistaComponent implements OnInit {
 
   //PROPRIEDADES INPUTÁVEIS DO CARD
-  @Input() id:string = '#'
-  @Input() title:string = 'Título do projeto'
-  @Input() desc:string = 'Descrição do projeto'
+  @Input() id:string = ''
+  
+  // private Id:string | null = ''
+  tituloProjeto:string = "desafio X"
+  relevancia:string = "finalista"
 
-  constructor() { }
+  constructor(private route:ActivatedRoute) { }
 
   ngOnInit(): void {
+    // this.route.paramMap.subscribe( (value) => this.Id = value.get('id') );
+    this.setValuesToComponent(this.id);
+  }
+
+  setValuesToComponent(id:string | null){
+    const dados = projetoData.filter( (dev) => dev.id == id )[0];
+    console.log(dados)
+
+    this.tituloProjeto = dados['titulo-rojeto']
+    this.relevancia = dados.relevancia;
   }
 
 }

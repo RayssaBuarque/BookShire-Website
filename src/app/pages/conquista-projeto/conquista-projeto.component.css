@@ -1,0 +1,78 @@
+.container__projeto{
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.projeto__pic {
+    padding: 25px;
+    border-radius: 25px;
+    background-color: white;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+
+.projeto__pic > img{
+    border-radius: 20px;
+    width: 750px;
+}
+
+.projeto__header > h1{
+    font-size: 50px;
+    color: #152139;
+}
+
+.projeto__categorias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+.projeto__categorias > span{
+    padding: 5px 40px;
+    border-radius: 20px;
+
+    font-size: 16px;
+}
+
+#posicao{
+    background-color: #1f3b6f;
+    color:#d7deea;
+    margin-right: 10px;
+}
+
+#ano{
+    background-color: #d7deea;
+    color:#1f3b6f;
+    font-weight: bold;
+}
+
+.projeto__descricao{
+    width: 55%;
+    margin-top: 30px;
+}
+
+.projeto__descricao > p{
+    text-align: center;
+}
+
+.projeto__empresas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 50px;
+    width: 425px;
+}
+
+.projeto__empresas > img{
+    height: auto;
+    width: 125px;
+}

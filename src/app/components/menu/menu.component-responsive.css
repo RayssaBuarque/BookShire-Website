@@ -23,6 +23,17 @@
 }
 
 @media screen and (max-width:500px){
+
+    .home__background > img{
+        height: 450px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .home__background{
+        visibility: hidden;
+    }
+    
     .menu__title > a > h1{
         color: #FF6D1F;
     }
