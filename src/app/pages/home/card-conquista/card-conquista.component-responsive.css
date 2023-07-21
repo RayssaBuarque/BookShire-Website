@@ -1,11 +1,18 @@
 @media screen and (max-width:1060px){
     .container__conquista{
         width: 200px;
-        height: 275px;
+        height: 325px;
         padding: 15px;
     }
 
-    .conquista__title { width: auto; }
+    .conquista__empresa > img{
+        width: 130px;
+    }
+
+    .conquista__title {
+        width: auto;
+        margin-top: 10px;
+    }
     .conquista__title > h1{ font-size: 30px; }
     .conquista__desc > p{ font-size: 22px; }
 }
@@ -13,20 +20,28 @@
 @media screen and (max-width:800px){
     .container__conquista{
         width: 170px;
-        height:200px;
+        height:250px;
         padding: 10px;
     }
 
-    .conquista__desc{ width: auto; }
+    .conquista__empresa > img{
+        width: 100px;
+    }
 
     .conquista__title > h1{ font-size: 25px; }
+    
+    .conquista__desc{ width: auto; }
     .conquista__desc > p{ font-size: 20px; }
 }
 
 @media screen and (max-width:500px){
     .container__conquista{
         width: 125px;
-        height:150px;
+        height:175px;
+    }
+
+    .conquista__empresa > img{
+        width: 75px;
     }
 
     .conquista__desc{ width: auto; }

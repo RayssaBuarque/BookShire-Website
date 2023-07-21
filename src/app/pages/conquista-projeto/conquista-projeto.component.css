@@ -18,9 +18,12 @@
 .projeto__pic > img{
     border-radius: 20px;
     width: 750px;
+    height: 450px;
+    object-fit: cover;
 }
 
 .projeto__header > h1{
+    text-align: center;
     font-size: 50px;
     color: #152139;
 }
@@ -63,16 +66,80 @@
 }
 
 .projeto__empresas{
+    margin-top: 50px;
+    width: 425px;
+}
+
+.projeto__empresas > ol{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 
-    margin-top: 50px;
-    width: 425px;
+    list-style: none;
 }
 
-.projeto__empresas > img{
+.projeto__empresas > ol > li > img{
     height: auto;
     width: 125px;
 }
+
+.projeto__galeria{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.galeria__background{
+    padding: 0 100px;
+    background-color: #1f3b6f;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.galeria__texto {
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria__texto > h1{
+    color: #ff6d1f;
+    width: 80%;
+    font-size: 45px;
+}
+
+.galeria__texto > ul{
+    width:60%;
+    margin-top: 10px;
+    color: #d7deea;
+}
+
+.galeria__texto > ul > li{
+    margin-top: 15px;
+}
+
+.galeria__texto > ul > li > a{
+    color: #d7deea;
+    font-size: 20px;
+}
+
+#galeria__pitch{
+    width: 450px;
+    height:253px;
+
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: #ff6d1f;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 

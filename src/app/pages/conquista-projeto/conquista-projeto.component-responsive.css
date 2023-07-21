@@ -1,0 +1,142 @@
+@media screen and (min-width:1400px) {
+    .projeto__pic > img{
+        border-radius: 15px;
+        width: 850px;
+        height: 450px;
+    }
+
+    #galeria__pitch{
+        width: 525px;
+        height:295px;
+    }
+}
+
+@media screen and (max-width:1125px){
+    .projeto__pic {
+        padding: 18px;
+        border-radius: 20px;
+    }
+
+    .projeto__pic > img{
+        border-radius: 15px;
+        width: 675px;
+        height: 425px;
+    }
+
+    .projeto__empresas > ol > li > img{ width: 100px; }
+
+    .galeria__background{ padding: 0 50px; }
+    .galeria__texto { width: 50%; }
+
+    .galeria__texto > h1{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .galeria__texto > ul{ 
+        margin-left: 40px;
+        width:90%
+    }
+
+    .galeria__texto > ul > li{ margin-top: 10px; }
+    .galeria__texto > ul > li > a{ font-size: 18px; }
+    
+    #galeria__pitch{
+        width: 375px;
+        height:211px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .projeto__pic {
+        padding: 15px;
+    }
+
+    .projeto__pic > img{
+        border-radius: 10px;
+        width: 425px;
+        height: 275px;
+    }
+
+    .projeto__header > h1{ font-size: 40px; }
+
+    .projeto__categorias > span{
+        padding: 5px 30px;
+        border-radius: 15px;
+    
+        font-size: 14px;
+    }
+
+    .projeto__empresas{
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .projeto__empresas > ol > li > img{ width: 75px; }
+
+    .galeria__background{
+        padding: 0 30px;
+        flex-direction: column;
+    }
+    .galeria__texto { width: 100%; }
+
+    .galeria__texto > h1{
+        width: 100%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .galeria__texto > ul > li{ margin-top: 10px; }
+    .galeria__texto > ul > li > a{ font-size: 18px; }
+
+    #galeria__pitch{
+        margin-top: 30px;
+        width: 375px;
+        height:211px;
+    } 
+}
+
+@media screen and (max-width:500px){
+    .projeto__pic{
+        padding: 10px 0px;
+        border-radius: 0;
+    }
+
+    .projeto__pic > img{
+        width: 100%;
+        height: auto;
+        border-radius: 0%;
+    }
+
+    .projeto__header > h1{ font-size: 26px; }
+    
+    .projeto__categorias > span{
+        padding: 5px 20px;
+        border-radius: 10px;
+    
+        font-size: 12px;
+    }
+
+    .projeto__descricao{
+        width: 75%;
+        margin-top: 20px;
+    }
+
+    .projeto__descricao > p{ font-size: 14px;}
+
+    .projeto__empresas{
+        margin-top: 30px;
+        width: 200px;
+    }
+
+    .projeto__empresas > ol > li > img{ width: 50px; }
+
+    .galeria__texto > h1{ font-size: 30px; }
+    .galeria__texto > ul > li > a{ font-size: 14px; }
+
+    #galeria__pitch{
+        margin-top: 30px;
+        width: 100%;
+        height:auto;
+    } 
+}

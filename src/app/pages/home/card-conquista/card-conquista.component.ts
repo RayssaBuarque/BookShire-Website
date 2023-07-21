@@ -18,6 +18,7 @@ export class CardConquistaComponent implements OnInit {
   // private Id:string | null = ''
   tituloProjeto:string = "desafio X"
   relevancia:string = "finalista"
+  logoUrl:string = "../../assets/pages/conquistas/empresas/sebrae.png"
 
   constructor(private route:ActivatedRoute) { }
 
@@ -32,6 +33,8 @@ export class CardConquistaComponent implements OnInit {
 
     this.tituloProjeto = dados['titulo-rojeto']
     this.relevancia = dados.relevancia;
+
+    this.logoUrl = dados.empresas[0].logoUrl
   }
 
 }

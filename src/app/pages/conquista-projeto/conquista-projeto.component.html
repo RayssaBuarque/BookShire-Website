@@ -1,6 +1,6 @@
 <div class="container__projeto">
     <div class="projeto__pic">
-        <img src="../../../assets/pages/conquistas/fotos/historia/pitch_LigaJovem.jpg" alt="aaaaaaaaaaa">
+        <img src="{{pic.picUrl}}" alt="aaaaaaaaaaa">
     </div>
 </div>
 
@@ -8,22 +8,45 @@
 
 <div class ="container__projeto">
     <div class="projeto__header">
-        <h1>Desafio Liga Jovem</h1>
+        <h1>{{tituloProjeto}}</h1>
 
         <div class="projeto__categorias">
-            <span id="posicao">Semi Finalistas</span>
-            <span id="ano">2022 - 2023</span>
+            <span id="posicao">{{relevancia}}</span>
+            <span id="ano">{{ano}}</span>
         </div>
     </div>
 
     <div class="projeto__descricao">
-        <p>Alguns meses após nossa participação no Hackathon, o BookShire recebeu uma repaginada e diversas melhorias ao ser inscrito na primeira edição do Desafio Liga Jovem no Brasil. O BookShire foi selecionado como semi-finalista do programa dentre os 600 projetos participantes e nossa equipe apresentou nosso pitch novamente, dessa vez na Faculdade Sebrae.</p>
+        <p>{{descricaoProjeto}}</p>
     </div>
 
     <div class="projeto__empresas">
-        <img src="../../../assets/pages/conquistas/empresas/sebrae.png" alt="aaaa">
-        <img src="../../../assets/logos/BookShire-tree.svg" alt="Logo do BookShire">
-        <img src="../../../assets/pages/conquistas/empresas/ideias_de_futuro.png" alt="">
+        <ol>
+            <li *ngFor = "let empresa of empresas">
+                <img src = "{{empresa.logoUrl}}" alt="{{empresa.nome}}">
+            </li>
+        </ol>
+    </div>
+
+    <div class="projeto__galeria">        
+
+        <img src="../../../assets/pages/conquistas/waves/1st.svg" alt="Background Wave">
+
+        <div class="galeria__background">
+            <div class="galeria__texto">
+                <h1>GALERIA</h1>
+
+                <ul>
+                    <li *ngFor = "let link of links">
+                        <a href="{{link['url-link']}}" target="_blank">
+                            {{link['titulo-link']}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="galeria__pitch" [innerHTML] = "pitch"></div>
+        </div>
     </div>
 
 </div>

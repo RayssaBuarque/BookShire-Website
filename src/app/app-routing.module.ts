@@ -9,10 +9,6 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path:'teste',
-    component: ConquistaProjetoComponent
-  },
-  {
     path:'projeto/:id',
     component: ConquistaProjetoComponent
   },

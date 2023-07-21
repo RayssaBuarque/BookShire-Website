@@ -8,15 +8,24 @@ a{
     align-items: center;
     justify-content: center;
 
-    height: 300px;
+    height: 350px;
     width: 250px;
     background-color: white;
     border-radius: 35px;
     padding: 20px;
+
+    -webkit-box-shadow: 10px 4px 126px -74px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 4px 126px -74px rgba(0,0,0,0.75);
+    box-shadow: 10px 4px 126px -74px rgba(0,0,0,0.75);
+}
+
+.conquista__empresa > img{
+    width: 200px;
 }
 
 .conquista__title{
     width:80%;
+    margin-top: 20px;
     text-align: center;
 }
 
