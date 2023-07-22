@@ -8,3 +8,10 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width:500px){
+    html{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,247,240,1) 44%, rgba(227,238,255,1) 100%);
+    }
+}

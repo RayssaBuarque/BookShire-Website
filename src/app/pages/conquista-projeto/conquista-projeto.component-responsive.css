@@ -100,11 +100,14 @@
     .projeto__pic{
         padding: 10px 0px;
         border-radius: 0;
+        width: 100%;
     }
 
     .projeto__pic > img{
         width: 100%;
-        height: auto;
+        min-width: 100%;
+        height:auto;
+        max-height: 275px;
         border-radius: 0%;
     }
 
@@ -137,6 +140,5 @@
     #galeria__pitch{
         margin-top: 30px;
         width: 100%;
-        height:auto;
     } 
 }
