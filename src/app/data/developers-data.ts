@@ -64,7 +64,7 @@ export const devData = [
         "id": "5",
         "nome": "Sara Marcelli",
         "picUrl":"../../assets/pages/home/devs/sara.jpg",
-        "cargo": "Membra",
+        "cargo": "Database Administrator",
         "socials": [
             {
                 "rede": "Linkedin",
