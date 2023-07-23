@@ -19,6 +19,10 @@ a{
     box-shadow: 10px 4px 126px -74px rgba(0,0,0,0.75);
 }
 
+.container__conquista:hover{
+    background-color: #d7deea;
+}
+
 .conquista__empresa > img{
     width: 200px;
 }
