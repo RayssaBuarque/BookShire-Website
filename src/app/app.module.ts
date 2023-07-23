@@ -11,6 +11,7 @@ import { CardDevsComponent } from './pages/home/card-devs/card-devs.component';
 import { MenuSanduicheComponent } from './components/menu/menu-sanduiche/menu-sanduiche.component';
 import { ConquistaProjetoComponent } from './pages/conquista-projeto/conquista-projeto.component';
 import { HrDivisaoComponent } from './components/hr-divisao/hr-divisao.component';
+import { CardInfoPesquisaComponent } from './pages/home/card-info-pesquisa/card-info-pesquisa.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HrDivisaoComponent } from './components/hr-divisao/hr-divisao.component
     CardDevsComponent,
     MenuSanduicheComponent,
     ConquistaProjetoComponent,
-    HrDivisaoComponent
+    HrDivisaoComponent,
+    CardInfoPesquisaComponent
   ],
   imports: [
     BrowserModule,

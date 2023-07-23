@@ -1,0 +1,67 @@
+
+.sobre__pesquisa-card{
+    width: 75%;
+    margin:auto;
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 39px -25px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 0px 39px -25px rgba(0,0,0,0.61);
+    box-shadow: 0px 0px 39px -25px rgba(0,0,0,0.61);
+}
+
+.pesquisa__icon > img{
+    height:200px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.pesquisa__text > p{
+    text-align: left;
+    font-size: 20px;
+    color:#152139;
+    margin-bottom: 30px;
+}
+
+.pesquisa__text > a{
+    padding:5px 25px;
+    border-radius: 15px;
+    background-color: #FF6D1F;
+
+    font-size: 22px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.pesquisa__text > a:hover{
+    background-color: #FDA14C;
+}
+
+.pesquisa__text > ul{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #FF6D1F;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.pesquisa__text > ul:hover{
+    color: #FDA14C;
+}
+
+.pesquisa__text > ul > li > a{
+    text-decoration: none;
+    color:#FF6D1F;
+}
+
+.pesquisa__text > ul > li > a:hover{
+    color:#FDA14C;
+}
