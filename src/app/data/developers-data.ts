@@ -3,7 +3,7 @@ export const devData = [
         "id": "1",
         "nome": "Evelyn Alves",
         "picUrl":"../../assets/pages/home/devs/evelyn.jpg",
-        "cargo": "Membra",
+        "cargo": "Social Media Manager",
         "socials": [
             {
                 "rede": "Linkedin",
