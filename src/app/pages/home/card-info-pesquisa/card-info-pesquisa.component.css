@@ -52,3 +52,27 @@
 .pesquisa__text > ul > li > a:hover{
     color:#FDA14C;
 }
+
+
+.sobre__escola-citados{
+    margin: auto;
+    margin-top: 100px;
+    width: 425px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#etec{
+    width: 125px;
+}
+
+#cps{
+    width: 100px;
+}
+
+#sp{
+    width: 150px;
+}
