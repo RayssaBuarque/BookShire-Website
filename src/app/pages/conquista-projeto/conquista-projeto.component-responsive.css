@@ -120,6 +120,13 @@
         font-size: 12px;
     }
 
+    .projeto__titulo-artigo{
+        width: 75%;
+        margin-top: 25px;
+    }
+
+    .projeto__titulo-artigo > h2{font-size: 22px;}
+
     .projeto__descricao{
         width: 75%;
         margin-top: 20px;

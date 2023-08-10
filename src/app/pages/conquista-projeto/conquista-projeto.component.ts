@@ -17,7 +17,7 @@ export class ConquistaProjetoComponent implements OnInit {
   private Id:string | null = ''
 
   ano:string = '2023'
-  descricaoProjeto:string = "descricao do projeto"
+  descricaoProjeto:string[] = []
   tituloProjeto:string = "desafio X"
   relevancia:string = "finalista"
 
@@ -49,12 +49,13 @@ export class ConquistaProjetoComponent implements OnInit {
     const dados = projetoData.filter( (dev) => dev.id == id )[0];
     
     this.pic = dados.pic
-    this.tituloProjeto = dados['titulo-rojeto']
+    this.tituloProjeto = dados['titulo-projeto']
     
     this.relevancia = dados.relevancia
     this.ano = dados.ano
     
-    this.descricaoProjeto = dados['descricao-projeto']
+    this.descricaoProjeto = dados['descricao-projeto'].split('///NNN')
+
     this.empresas.push(...dados.empresas)
 
     this.links.push(...dados.links)

@@ -31,7 +31,7 @@ export class CardConquistaComponent implements OnInit {
     const dados = projetoData.filter( (dev) => dev.id == id )[0];
     console.log(dados)
 
-    this.tituloProjeto = dados['titulo-rojeto']
+    this.tituloProjeto = dados['titulo-projeto']
     this.relevancia = dados.relevancia;
 
     this.logoUrl = dados.empresas[0].logoUrl

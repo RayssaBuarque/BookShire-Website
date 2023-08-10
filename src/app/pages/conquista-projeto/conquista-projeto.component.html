@@ -16,8 +16,15 @@
         </div>
     </div>
 
+    <div class="projeto__titulo-artigo">
+        <h2>Título do Artigo</h2>
+    </div>
+
     <div class="projeto__descricao">
-        <p>{{descricaoProjeto}}</p>
+        <p *ngFor = "let paragrafo of descricaoProjeto">
+            {{paragrafo}}
+        </p>
+        
     </div>
 
     <div class="projeto__empresas">
