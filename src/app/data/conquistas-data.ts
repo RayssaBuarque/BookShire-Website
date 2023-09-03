@@ -2,6 +2,7 @@ const exemplo = {
     "id": "0",
     "ano": "XXXX",
     "titulo-projeto":"desafio X",
+    "titulo-artigo":"Título do artigo",
     "relevancia":"finalista",
     "descricao-projeto":"descricao do projeto",
     "pic": {
@@ -36,8 +37,9 @@ export const projetoData = [
         "id": "1",
         "ano": "2022",
         "titulo-projeto":"Hackathon Etec Abdias",
+        "titulo-artigo":"PRIMEIROS PASSOS DO BOOKSHIRE - Hackathon Acadêmico do CPS mostra que livros podem sim apreciar a tecnologia",
         "relevancia":"Primeira Aparição do Projeto",
-        "descricao-projeto":"O BookShire foi inicialmente desenvolvido como um projeto para o 5º Hackathon Acadêmico do Centro Paula Souza em Agosto de 2022. Apesar de não ter chegado nas finais, a ideia continou sendo trabalhada pela equipe após a apresentação do Pitch presencial no auditório da Etec Abdias do Nascimento.",
+        "descricao-projeto":"Em agosto de 2022, o BookShire teve sua primeira aparição na 5ª edição do Hackathon acadêmico do Centro Paula Souza. Orientado pela professora Stephany Martins Conceição, o projeto semifinalista foi desenvolvido no curso de uma semana e apresentado no auditório da ETEC Abdias do Nascimento. ///NNN A Equipe MRS, formada por 5 alunos do segundo ano do curso técnico em desenvolvimento de sistemas, explorou um problema em comum entre todos os integrantes: a dificuldade em encontrar livros de boa qualidade e sobretudo, baratos. Os estudantes perceberam que a tecnologia e a leitura podem ser grandes aliados se combinados em uma somatória de conhecimento + inovação. O BookShire é inovador por ser uma plataforma voltada a um negócio pouco explorado no mercado digital brasileiro e, por ter diferentes tipos de transação de livros: troca, doação e venda. ///NNN A Equipe DS Girls agradece um dos grandes apoiadores do projeto, o aluno Riquelmy Marley. Ele esteve presente na primeira formação da equipe, auxiliando no desenvolvimento da solução e juntamente com Sara Marcelli, apresentou o PItch do BookShire para todos os estudantes, jurados e professores da escola.",
         "pic": {
             "picAltText": "Dois jovens com um microfone apresentando a aplicação BookShire em um palco de auditório.",
             "picUrl":"../../../assets/pages/conquistas/fotos/historia/pitch_Hackathon2022.jpg"
@@ -65,8 +67,9 @@ export const projetoData = [
         "id": "2",
         "ano": "2022 - 2023",
         "titulo-projeto":"Desafio Liga Jovem",
+        "titulo-artigo":"DENTRE OS SEMIFINAIS: Primeira edição do Desafio leva 3 equipes da Etec Abdias do Nascimento para a Semifinal",
         "relevancia":"Semi Finalistas",
-        "descricao-projeto":"Alguns meses após nossa participação no Hackathon, o BookShire recebeu uma repaginada e diversas melhorias ao ser inscrito na primeira edição do Desafio Liga Jovem no Brasil. O BookShire foi selecionado como semi-finalista do programa dentre os 600 projetos participantes e nossa equipe apresentou nosso pitch novamente, dessa vez na Faculdade Sebrae.",
+        "descricao-projeto":"Entre os meses de outubro de 2022 e março de 2023, a equipe participou do Desafio Liga Jovem, projeto de empreendedorismo social do Instituto Ideias de Futuro em parceria com o Sebrae. ///NNN O Desafio Liga Jovem é uma competição entre jovens estudantes do 9º ano do Ensino Fundamental ao 3° ano do Ensino Médio que propõe a resolução inovadora de problemas em suas comunidades através da tecnologia. Além de todo o espírito competitivo, as equipes participam de conteúdos ao vivo e oficinas com objetivo de auxiliar os estudantes a desenvolverem sua solução e apresentá-las com confiança. ///NNN Dentre as 1200 equipes participantes do programa em todo o Brasil, a equipe DS Girls levou o BookShire para as semifinais da competição juntamente com outras 2 equipes da Etec Abdias do Nascimento, competindo com as outras 100 equipes semifinalistas na faculdade Sebrae em São Paulo. ///NNN As membras da equipe ficaram alocadas em um hotel no centro da cidade durante uma semana, onde puderam conhecer pontos turísticos como o museu catavento e o hub de inovação Learning Village, além de participarem do maior evento de investidores em startups do país, o Bossa Summit, juntamente com as outras equipes do programa.",
         "pic": {
             "picAltText": "Duas jovens segurando um microfone, apresentando um slideshow contendo a logo do BookShire para um círculo de jurados.",
             "picUrl":"../../../assets/pages/conquistas/fotos/historia/pitch_LigaJovem.jpg"

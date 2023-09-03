@@ -25,6 +25,7 @@ export class ConquistaProjetoComponent implements OnInit {
   pitch:string | SafeHtml= '<iframe width="560" height="315" src="https://www.youtube.com/embed/9HsxCNVLW-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
   links:any[] = []
   empresas:any[] = []
+  tituloArtigo:string = 'Título do Artigo'
 
   constructor(private route:ActivatedRoute, private sanitizer:DomSanitizer, private router:Router) {
   }
@@ -54,6 +55,7 @@ export class ConquistaProjetoComponent implements OnInit {
     this.relevancia = dados.relevancia
     this.ano = dados.ano
     
+    this.tituloArtigo = dados['titulo-artigo']
     this.descricaoProjeto = dados['descricao-projeto'].split('///NNN')
 
     this.empresas.push(...dados.empresas)
