@@ -37,6 +37,11 @@ export const devData = [
                 "rede": "Linkedin",
                 "redePicUrl": "../../assets/icons/linkedin.svg",
                 "redeUrl": "https://www.linkedin.com/in/maria-luiza-871a65238/"
+            },
+            {
+                "rede": "Github",
+                "redePicUrl": "../../assets/icons/github.svg",
+                "redeUrl": "https://github.com/i-malur"
             }
         ]
     },
