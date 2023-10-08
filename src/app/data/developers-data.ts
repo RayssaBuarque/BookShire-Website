@@ -17,7 +17,7 @@ export const devData = [
         "id": "2",
         "nome": "Maria Clara Penninck",
         "picUrl":"../../assets/pages/home/devs/clara.jpg",
-        "cargo": "UI Designer",
+        "cargo": "Head Designer",
         "socials": [
             {
                 "rede": "Linkedin",
