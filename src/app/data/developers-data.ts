@@ -4,6 +4,7 @@ export const devData = [
         "nome": "Evelyn Alves",
         "picUrl":"../../assets/pages/home/devs/evelyn.jpg",
         "cargo": "Social Media Manager",
+        "livroFavorito":"\"Sem Coração\" - Marissa Meyer",
         "socials": [
             {
                 "rede": "Linkedin",
@@ -18,6 +19,7 @@ export const devData = [
         "nome": "Maria Clara Penninck",
         "picUrl":"../../assets/pages/home/devs/clara.jpg",
         "cargo": "Head Designer",
+        "livroFavorito":"\"Última parada\" - Casey McQuinston",
         "socials": [
             {
                 "rede": "Linkedin",
@@ -32,6 +34,7 @@ export const devData = [
         "nome": "Maria Luiza Fernandes",
         "picUrl":"../../assets/pages/home/devs/malu.jpg",
         "cargo": "Project Manager",
+        "livroFavorito":"\"O Ladrão de Raios\" - Rick Riordan",
         "socials": [
             {
                 "rede": "Linkedin",
@@ -51,6 +54,7 @@ export const devData = [
         "nome": "Rayssa Buarque",
         "picUrl":"../../assets/pages/home/devs/rayssa.jpg",
         "cargo": "FullStack Developer",
+        "livroFavorito":"\"A menina que roubava livros\" - Markus Zusak",
         "socials": [
             {
                 "rede": "Linkedin",
@@ -70,6 +74,7 @@ export const devData = [
         "nome": "Sara Marcelli",
         "picUrl":"../../assets/pages/home/devs/sara.jpg",
         "cargo": "Database Administrator",
+        "livroFavorito":"\"A Hipótese do Amor\" - Ali Hazelwood",
         "socials": [
             {
                 "rede": "Linkedin",
