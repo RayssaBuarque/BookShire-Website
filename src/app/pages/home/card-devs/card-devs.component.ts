@@ -18,6 +18,7 @@ export class CardDevsComponent implements OnInit {
   nome:string = 'Nome'
   cargo:string = 'Cargo'
   picUrl:string = 'Url da Imagem'
+  livroFavorito:String = 'Livro Favorito'
 
   socials:{
     rede: string,
@@ -44,6 +45,7 @@ export class CardDevsComponent implements OnInit {
     this.nome = dados.nome;
     this.cargo = dados.cargo;
     this.picUrl = dados.picUrl;
+    this.livroFavorito = dados.livroFavorito;
 
     this.socials.push(...dados.socials)
     // console.log(this.socials)
