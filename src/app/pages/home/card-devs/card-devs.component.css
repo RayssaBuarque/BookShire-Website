@@ -7,70 +7,15 @@
     height: 325px;
 }
 
-.card__pic {    
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
-
-    padding: 0;
-    width: 175px;
-    display: block;
-    border-radius: 5%;
-    overflow: hidden;
-}
-
-.card__pic:hover {
-    top:-10px;
-}
-
 .card__pic > img{
+    border-radius: 5%;
     height: 175px;
     width: 175px;
     object-fit: cover;
 }
 
 .content {
-    opacity: 0;
-    font-size: 40px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.86);
-    height: 175px;
-    width: 175px;
-    -webkit-transition: all 400ms ease-out;
-    -moz-transition: all 400ms ease-out;
-    -o-transition: all 400ms ease-out;
-    -ms-transition: all 400ms ease-out;
-    transition: all 400ms ease-out;
-    text-align: center;
-}
-
-.card__pic .content:hover {
-    cursor: pointer;
-    opacity: 1;
-}
-
-.card__pic .content .text {
-    opacity: 1;
-    height: 0;
-
-    font-size: 18px;
-    color:#1f3b6f;
-    padding: 0 10px;
-
-    transition-delay: 0s;
-    transition-duration: 0.4s;
-}
-
-.text > .title {
-    font-weight: bold;
-    margin-bottom: .75rem;
-}
-
-.card__pic .content:hover .text {
-    transform: translateY(25px);
-    -webkit-transform: translateY(25px);
+    display: none;
 }
 
 .card__text > h1{  
