@@ -1,0 +1,34 @@
+.galeria__title{
+    margin: 0 100px;
+    margin-top: 50px;
+    font-family: Roboto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galeria__title > .texto > h1{
+    color: var(--bookshire-blue);
+    font-size: 50px;
+    margin-bottom: .75rem;
+}
+.galeria__title > .texto > h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.logo > img{
+    height: 100px;
+    width: 100px;
+}
+
+.botoes_secao{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
