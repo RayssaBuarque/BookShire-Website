@@ -35,7 +35,7 @@ export class ConquistaProjetoComponent implements OnInit {
     this.route.paramMap.subscribe( (value) => this.Id = value.get('id') );
 
     //checa se o projeto existe mesmo
-    if(Number(this.Id) > 3 || Number(this.Id) < 1){
+    if(Number(this.Id) > 4 || Number(this.Id) < 1){
       this.router.navigate(['**']);
     }else{
 

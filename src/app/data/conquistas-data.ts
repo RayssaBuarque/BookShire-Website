@@ -143,13 +143,13 @@ export const projetoData = [
         "descricao-projeto":"Entre os meses de março e abril de 2023, a equipe participou do Technovation Girls, uma competição global de tecnologia e empreendedorismo feminino. A ideia do programa é que meninas de 8 a 18 anos criem, desenvolvam e coloquem no ar um aplicativo de celular ou um projeto utilizando inteligência artificial que tenha como foco a solução de problemas sociais encontrados em suas comunidades. ///NNN Elas passaram, durante as 12 semanas de duração, por uma jornada de reiteração do problema e adaptação da solução BookShire a fim da elaboração de um plano de negócios, desenvolvimento de mais um protótipo digital e da apresentação do pitch para a bancada internacional do programa. ///NNN O novo protótipo mobile do BookShire foi projetado na plataforma Thunkable com o objetivo de facilitar a transação de livros usados entre pessoas ou sebos por meio de trocas, doações ou vendas a preços acessíveis com um design mais intuitivo. ///NNN A ideia ficou entre as 5 equipes brasileiras classificadas na semifinal global do Technovation Girls, recebendo destaque por ser a primeira equipe da Etec Abdias do Nascimento a conseguir esse feito. ///NNN Além disso, as meninas da equipe Ds Girls tiveram a oportunidade de apresentar o pitch elaborado na competição presencialmente no Technovation Day 2023, um evento que ocorreu no dia 24 de junho de 2023 na Escola de Novas Tecnologias SCS em São Caetano do Sul - SP.",
         "pic": {
             "picAltText": "Duas garotas em cima de um palco de auditório, a logo do BookShire paira sobre um telão ao fundo.",
-            "picUrl":"../../../assets/pages/conquistas/fotos/historia/pitch_TechnovationGirls2023.png"
+            "picUrl":"../../../assets/pages/conquistas/fotos/historia/pitch_hackathon2023.jpg"
         },
-        "pitch":'<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Fse78UTc_lY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+        "pitch":'<iframe width="100%" height="100%" src="https://www.youtube.com/embed/o7Lgvi4Onzk?si=hdQPrf30hD8XAc_j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
         "empresas": [
             {
-               "nome":"Technovation Girls",
-               "logoUrl": "../../assets/pages/conquistas/empresas/technovation_girls.png"
+               "nome":"Centro Paula Souza",
+               "logoUrl": "../../assets/pages/conquistas/empresas/centro_paula_souza.png"
             },
             {
                 "nome":"BookShire",
@@ -159,11 +159,7 @@ export const projetoData = [
         "links": [
             {
                 "titulo-link": "Vídeo Pitch de Submissão do projeto",
-                "url-link": "https://youtu.be/Fse78UTc_lY"
-            },
-            {
-                "titulo-link": "Vídeo Demo do BookShire",
-                "url-link": "https://youtu.be/yCBzsE2NPG0"
+                "url-link": "https://www.youtube.com/watch?v=o7Lgvi4Onzk"
             }
         ]
     }
