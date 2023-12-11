@@ -1,0 +1,11 @@
+.tecnologias__expo p{
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.tecnologias__expo img{
+    margin-top: 2rem;
+    width: 600px;
+    height: auto;
+}

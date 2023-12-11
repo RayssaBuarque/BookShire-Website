@@ -2,11 +2,19 @@
     background-color: var(--bookshire-blue);
     background-size: cover;
     background-position: -15px;
-
+    
     border-radius: 25px;
     height: 500px;
     width: 310px;
     cursor: pointer;
+
+    position:relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.container__secao:hover{
+    top:-20px;
 }
 
 .container__secao::before{
@@ -15,7 +23,7 @@
     position: absolute;
     width: 310px;
     height: 500px;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the last value for darkness */
+    background: rgba(181, 208, 248, 0.5); /* Adjust the last value for darkness */
     z-index: 1;
     opacity: 0; /* Initially invisible */
     transition: opacity 0.3s ease; /* Smooth transition effect */

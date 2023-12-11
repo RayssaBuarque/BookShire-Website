@@ -9,3 +9,9 @@
     font-family: Roboto;
     font-size: 18px;
 }
+
+.card__projeto .more{
+    margin-top: .75rem;
+    font-size: 16px;
+    color: var(--book-orange);
+}

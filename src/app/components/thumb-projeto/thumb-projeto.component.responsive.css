@@ -56,7 +56,7 @@
     }
     
     .card__projeto .content:hover .text {
-        transform: translateY(65px);
-        -webkit-transform: translateY(65px);
+        transform: translateY(55px);
+        -webkit-transform: translateY(55px);
     }
 }

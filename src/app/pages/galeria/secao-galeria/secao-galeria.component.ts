@@ -14,10 +14,13 @@ export class SecaoGaleriaComponent implements OnInit {
 
   ngOnInit(): void {
     if(this.titulo == 'Monografia'){
-      this.fundoImagem = 'https://img.freepik.com/fotos-gratis/fundo-de-gotas-de-agua_23-2148098971.jpg'
+      // this.fundoImagem = 'https://img.freepik.com/fotos-gratis/fundo-de-gotas-de-agua_23-2148098971.jpg'
     }
     else if(this.titulo == 'Projetos'){
-      this.fundoImagem = '../../../assets/fotos/galeria/projetos/capa.jpg'
+      this.fundoImagem = '../../../assets/pages/galeria/capa_proj.jpg'
+    }
+    else if(this.titulo == 'Desenvolvimento'){
+      this.fundoImagem = '../../../assets/pages/galeria/capa_dev.png'
     }
   }
 
