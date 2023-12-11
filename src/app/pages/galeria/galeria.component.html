@@ -13,16 +13,18 @@
         </div>
     
         <div class="botoes_secao">
-            <app-secao-galeria titulo="Monografia" ></app-secao-galeria>
-            <app-secao-galeria titulo="Desenvolvimento"></app-secao-galeria>
-            <app-secao-galeria titulo="Projetos"></app-secao-galeria>
+            <app-secao-galeria (click)="showMonografia()" titulo="Monografia" ></app-secao-galeria>
+            <app-secao-galeria (click)="showDesenvolvimento()" titulo="Desenvolvimento"></app-secao-galeria>
+            <app-secao-galeria (click)="showProjetos()" titulo="Projetos"></app-secao-galeria>
         </div>
 
         <app-hr-divisao></app-hr-divisao>
     </div>
 
     <div class="conteudo__galeria">
-        <app-projetos></app-projetos>
+        <app-monografia *ngIf="index_conteudo == '0'"></app-monografia>
+        <app-desenvolvimento *ngIf="index_conteudo == '1'"></app-desenvolvimento>
+        <app-projetos *ngIf="index_conteudo == '2'"></app-projetos>
     </div>
 
 </div>
