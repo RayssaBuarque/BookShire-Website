@@ -14,6 +14,10 @@ import { HrDivisaoComponent } from './components/hr-divisao/hr-divisao.component
 import { CardInfoPesquisaComponent } from './pages/home/card-info-pesquisa/card-info-pesquisa.component';
 import { GaleriaComponent } from './pages/galeria/galeria.component';
 import { SecaoGaleriaComponent } from './pages/galeria/secao-galeria/secao-galeria.component';
+import { MonografiaComponent } from './pages/galeria/conteudo/monografia/monografia.component';
+import { DesenvolvimentoComponent } from './pages/galeria/conteudo/desenvolvimento/desenvolvimento.component';
+import { ProjetosComponent } from './pages/galeria/conteudo/projetos/projetos.component';
+import { ThumbProjetoComponent } from './components/thumb-projeto/thumb-projeto.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { SecaoGaleriaComponent } from './pages/galeria/secao-galeria/secao-galer
     HrDivisaoComponent,
     CardInfoPesquisaComponent,
     GaleriaComponent,
-    SecaoGaleriaComponent
+    SecaoGaleriaComponent,
+    MonografiaComponent,
+    DesenvolvimentoComponent,
+    ProjetosComponent,
+    ThumbProjetoComponent
   ],
   imports: [
     BrowserModule,

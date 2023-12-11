@@ -1,0 +1,11 @@
+.card__projeto img{
+    width: 325px;
+    height: 175px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card__projeto p{
+    font-family: Roboto;
+    font-size: 18px;
+}

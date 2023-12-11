@@ -1,0 +1,62 @@
+@media screen and (min-width:800px){
+    .card__projeto {    
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
+    
+        padding: 0;
+        width: 325px;
+        display: block;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+    
+    .card__projeto:hover {
+        top:-10px;
+    }
+    
+    .content {
+        display: block;
+        opacity: 0;
+        font-size: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.86);
+        height: 175px;
+        width: 325px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+        text-align: center;
+    }
+    
+    .card__projeto .content:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+    
+    .card__projeto .content .text {
+        opacity: 1;
+        height: 0;
+    
+        font-size: 14px;
+        color:var(--bookshire-blue);
+        padding: 0 8px;
+    
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+    }
+    
+    .text > .title {
+        font-weight: bold;
+        margin-bottom: .25rem;
+    }
+    
+    .card__projeto .content:hover .text {
+        transform: translateY(65px);
+        -webkit-transform: translateY(65px);
+    }
+}

@@ -1,20 +1,28 @@
 <div class="container__galeria">
 
-    <div class="galeria__title">
-        <div class="texto">
-            <h1>Galeria</h1>
-            <h3>Confira nossas conquistas e acompanhe a evolução do projeto.</h3>
+    <div class="galeria__topo">
+        <div class="galeria__title">
+            <div class="texto">
+                <h1>Galeria</h1>
+                <h3>Confira nossas conquistas e acompanhe a evolução do projeto:</h3>
+            </div>
+    
+            <div class="logo">
+                <img src="../../../assets/logos/BookShire-tree.svg" alt="Logo do BookShire">
+            </div>
+        </div>
+    
+        <div class="botoes_secao">
+            <app-secao-galeria titulo="Monografia" ></app-secao-galeria>
+            <app-secao-galeria titulo="Desenvolvimento"></app-secao-galeria>
+            <app-secao-galeria titulo="Projetos"></app-secao-galeria>
         </div>
 
-        <div class="logo">
-            <img src="../../../assets/logos/BookShire-tree.svg" alt="Logo do BookShire">
-        </div>
+        <app-hr-divisao></app-hr-divisao>
     </div>
 
-    <div class="botoes_secao">
-        <app-secao-galeria titulo="Monografia" ></app-secao-galeria>
-        <app-secao-galeria titulo="Desenvolvimento"></app-secao-galeria>
-        <app-secao-galeria titulo="Projetos"></app-secao-galeria>
+    <div class="conteudo__galeria">
+        <app-projetos></app-projetos>
     </div>
 
 </div>

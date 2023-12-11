@@ -1,6 +1,28 @@
-.galeria__title{
-    margin: 0 100px;
+.container__galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 0;
+    width: 100%;
+    padding-top: 125px;
+    background-image: url('../../../assets/pages/galeria/background.svg');
+    background-size: cover;
+    background-position: center -20px;
+    z-index: -1; */
+}
+
+.galeria__topo{
     margin-top: 50px;
+    background-color: white;
+    border-radius: 25px;
+    width: 75%;
+    padding: 25px 0;
+}
+
+.galeria__title{
+    margin: 0 50px;
     font-family: Roboto;
 
     display: flex;
