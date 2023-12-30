@@ -3,7 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-galeria',
   templateUrl: './galeria.component.html',
-  styleUrls: ['./galeria.component.css']
+  styleUrls: [
+    './galeria.component.css',
+    './galeria.component-responsive.css'
+  ]
 })
 export class GaleriaComponent implements OnInit {
 

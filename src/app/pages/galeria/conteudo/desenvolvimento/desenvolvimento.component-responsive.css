@@ -1,0 +1,27 @@
+@media screen and (max-width:675px){
+    .tecnologias__expo img{
+        margin-top: 1.75rem;
+        width: 425px;
+        height: auto;
+    }
+
+    .tecnologias__expo{
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    .tecnologias__expo img{
+        margin-top: 1.75rem;
+        width: 325px;
+        height: auto;
+    }
+
+    .tecnologias__expo{
+        margin: 0 15px;
+    }
+}

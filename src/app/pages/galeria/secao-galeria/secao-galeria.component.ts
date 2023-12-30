@@ -3,7 +3,10 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-secao-galeria',
   templateUrl: './secao-galeria.component.html',
-  styleUrls: ['./secao-galeria.component.css']
+  styleUrls: [
+    './secao-galeria.component.css',
+    './secao-galeria.component-responsive.css'
+  ]
 })
 export class SecaoGaleriaComponent implements OnInit {
 
