@@ -1,0 +1,17 @@
+@media screen and (max-width:800px){}
+
+@media screen and (max-width:675px){
+    .texto-introdutorio p{
+        font-size: 17px;
+    }
+    
+    .texto-introdutorio h2{
+        font-size: 27px;
+    }
+
+    .row1, .row2{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+} 

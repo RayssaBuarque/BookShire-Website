@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './projetos.component.html',
   styleUrls: [
               './projetos.component.css',
-              './projetos.component.responsive.css'
+              './projetos.component-responsive.css'
             ]
 })
 export class ProjetosComponent implements OnInit {

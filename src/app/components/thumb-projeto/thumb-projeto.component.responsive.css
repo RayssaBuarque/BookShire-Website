@@ -60,3 +60,13 @@
         -webkit-transform: translateY(55px);
     }
 }
+
+@media screen and (max-width:800px){
+    a{
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width:675px){
+
+}
